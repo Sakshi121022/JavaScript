@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task03</title>
+</head>
+<body>
+     
+<div id="img">
+    <p> This Is my image Using Javascript</p>
+<button onclick="myimg()"> Open Image</button>
+
+</div>
+
+
+</body>
+<script>
+
+function myimg(){
+
+    var img = document.createElement("img");
+    img.setAttribute("src","https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg");
+//      document.body.appendChild(img);
+// 
+document.getElementById('img').appendChild(img);
+}
+
+    
+</script>
+
+</html>
